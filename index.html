@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WEBCRAFT — Создание сайтов</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#0b0b12;color:white}
+header{padding:25px 8%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #29293c}
+.logo{font-size:25px;font-weight:bold;color:#a78bfa}
+nav a{color:white;text-decoration:none;margin-left:20px}
+.hero{text-align:center;padding:130px 20px;background:radial-gradient(ellipse at top,#39236d,#0b0b12 70%)}
+.tag{color:#c4b5fd;margin-bottom:25px}
+h1{font-size:clamp(38px,7vw,75px);max-width:900px;margin:auto;line-height:1.1}
+h1 span{color:#a78bfa}
+.hero p{color:#aaa;margin:25px auto;max-width:550px;line-height:1.7}
+.btn{display:inline-block;background:#8b5cf6;color:white;text-decoration:none;padding:16px 28px;border-radius:10px;margin-top:15px}
+section{padding:75px 8%}
+h2{text-align:center;font-size:36px;margin-bottom:40px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#171722;border:1px solid #29293c;padding:30px;border-radius:16px}
+.card h3{color:#c4b5fd;margin-bottom:15px}
+.card p{color:#aaa;line-height:1.6}
+.contact{text-align:center;background:#12121c}
+footer{text-align:center;padding:25px;color:#777}
+@media(max-width:600px){header{flex-direction:column;gap:20px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">WEBCRAFT</div>
+<nav><a href="#services">Услуги</a><a href="#contact">Контакты</a></nav>
+</header>
+<main>
+<div class="hero">
+<div class="tag">DIGITAL WEB STUDIO</div>
+<h1>Создаём сайты, <span>которые продают</span></h1>
+<p>Разрабатываем современные сайты для бизнеса. Красивый дизайн, удобство и внимание к каждой детали.</p>
+<a href="#contact" class="btn">Заказать сайт</a>
+</div>
+<section id="services">
+<h2>Наши услуги</h2>
+<div class="services">
+<div class="card"><h3>🌐 Лендинги</h3><p>Современные одностраничные сайты для привлечения клиентов.</p></div>
+<div class="card"><h3>💼 Бизнес-сайты</h3><p>Представительство компании в интернете.</p></div>
+<div class="card"><h3>🛒 Интернет-магазины</h3><p>Каталоги товаров и страницы заказов.</p></div>
+</div>
+</section>
+<section class="contact" id="contact">
+<h2>Готовы начать?</h2>
+<p>Напишите нам, и обсудим ваш будущий сайт.</p>
+<a class="btn" href="https://t.me/ВАШ_ТЕЛЕГРАМ">Связаться с нами</a>
+</section>
+</main>
+<footer>© 2026 WEBCRAFT. Все права защищены.</footer>
+</body>
+</html>
